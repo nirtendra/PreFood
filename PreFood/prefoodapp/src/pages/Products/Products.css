@@ -1,0 +1,7 @@
+.ProductListContainer{
+    justify-content: space-between;
+}
+.ProductsCardView{
+    display: flex;
+
+}

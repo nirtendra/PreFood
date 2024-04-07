@@ -1,0 +1,38 @@
+.FirstHero >h2 {
+padding: 20px;
+margin-top: 45px;
+line-height: 3.5rem;
+}
+
+.FaqContainer{
+    max-width: 90%;
+    text-align: center;
+    margin: auto;
+   
+    margin-top: 50px;
+}
+.FaqContainerItem{
+    text-align: center;
+    padding: 15px;
+    margin-top: 35px;
+}
+.TestimonialContainer{
+
+    text-align: center;
+    padding: 35px;
+    margin: auto;
+    margin-top: 25px;
+}
+.TestimonialContainerRow{
+    padding: 25px;
+    margin-top: 15px;
+}
+.FeaturedContainer, .FeaturedContainerItems{
+    margin: auto;
+   margin-top: 25px;
+
+}
+.FeaturedContainerItems  .EachCard{
+ 
+    margin-top: 25px;
+}

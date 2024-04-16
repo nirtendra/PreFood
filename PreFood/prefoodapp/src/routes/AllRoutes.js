@@ -1,7 +1,10 @@
 
 import {Routes, Route} from "react-router-dom"
 import { HomePage } from "../pages/Home/HomePage"
-import { ProductList } from "../pages"
+import { ProductsList } from "../pages/Products/ProductsList"
+import{ ProductDetail} from "../pages/ProductDetail"
+import { Search } from "react-bootstrap-icons"
+import { OrderPage } from "../pages/Order/OrderPage"
 
 
 export const AllRoutes =()=>{
@@ -12,7 +15,11 @@ export const AllRoutes =()=>{
         
         <Routes>
            <Route path ="/" element={<HomePage/>} />
-           <Route path ="/products" element={<ProductList/>}/>
+           <Route path ="/products" element={<ProductsList/>}/>
+           <Route path ="/products/:id" element={<ProductDetail/>}/>
+           {/* <Route path="/search" element={<Search/>}/> */}
+           <Route path="/order/:productId" element={<OrderPage />} />
+
 
 
         </Routes>

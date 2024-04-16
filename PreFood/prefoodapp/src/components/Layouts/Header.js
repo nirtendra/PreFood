@@ -5,7 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Logo from "../../assets/Logo.png";
 import "./Header.css";
 import { Link } from "react-router-dom";
-
+import { useState } from "react";
 
 export const Header = () => {
   return (
@@ -29,13 +29,11 @@ export const Header = () => {
                 <span className="bi bi-gear-wide-connected "></span>
               </Link>
 
-              <Link to="/search">
-                <span className="bi bi-search"></span>
-              </Link>
-
               <Link to="/cart" className=" position-relative">
                 <span className="bi bi-cart-fill "></span>
-                <span className="badge bg-danger rounded-circle position-absolute top-0 start-50 translate-middle" >0</span>
+                <span className="badge bg-danger rounded-circle position-absolute top-0 start-50 translate-middle">
+                  0
+                </span>
               </Link>
 
               <Link to="/profile">

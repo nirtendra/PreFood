@@ -1,0 +1,187 @@
+{
+    "products": [
+      {
+        "id": 101,
+        "name": "Specialty Pizza",
+        "description": "A mouthwatering combination of fresh toppings and cheese on a crispy crust.",
+        "price": 12.99,
+        "category": "Pizza",
+        "rating": 4,
+        "img":"https://th.bing.com/th/id/OIP.DaB-qPu9FJD4amxEZwEZpQHaFm?w=254&h=192&c=7&r=0&o=5&pid=1.7",
+        "top_seller": true,
+        "in_stock": true
+        
+      },
+      {
+        "id": 102,
+        "name": "Grilled Salmon",
+        "description": "Freshly grilled salmon served with a side of vegetables and rice.",
+        "price": 18.99,
+        "category": "Seafood",
+        "rating": 4,
+        "img":"https://th.bing.com/th/id/OIP.DaB-qPu9FJD4amxEZwEZpQHaFm?w=254&h=192&c=7&r=0&o=5&pid=1.7",
+        "top_seller": false,
+        "in_stock": true
+      },
+      {
+        "id": 103,
+        "name": "Chicken Alfredo Pasta",
+        "description": "Creamy alfredo sauce served over tender chicken and pasta.",
+        "price": 15.99,
+        "category": "Pasta",
+        "rating": 4,
+        "img":"https://th.bing.com/th/id/OIP.DaB-qPu9FJD4amxEZwEZpQHaFm?w=254&h=192&c=7&r=0&o=5&pid=1.7",
+        "top_seller": true,
+        "in_stock": true
+      },
+      {
+        "id": 104,
+        "name": "Classic Burger",
+        "description": "Juicy beef patty topped with lettuce, tomato, and onion on a toasted bun.",
+        "price": 9.99,
+        "category": "Burger",
+        "rating": 4,
+        "img":"https://th.bing.com/th/id/OIP.DaB-qPu9FJD4amxEZwEZpQHaFm?w=254&h=192&c=7&r=0&o=5&pid=1.7",
+        "top_seller": false,
+        "in_stock": true
+      },
+      {
+        "id": 105,
+        "name": "Caesar Salad",
+        "description": "Crisp romaine lettuce, parmesan cheese, and croutons tossed in caesar dressing.",
+        "price": 8.99,
+        "category": "Salad",
+        "rating": 4,
+        "img":"https://th.bing.com/th/id/OIP.DaB-qPu9FJD4amxEZwEZpQHaFm?w=254&h=192&c=7&r=0&o=5&pid=1.7",
+        "top_seller": false,
+        "in_stock": true
+      },
+      {
+        "id": 106,
+        "name": "Spaghetti Carbonara",
+        "description": "Spaghetti pasta tossed with bacon, eggs, and parmesan cheese.",
+        "price": 14.99,
+        "category": "Pasta",
+        "rating": 4,
+        "img":"https://th.bing.com/th/id/OIP.DaB-qPu9FJD4amxEZwEZpQHaFm?w=254&h=192&c=7&r=0&o=5&pid=1.7",
+        "top_seller": true,
+        "in_stock": false
+      },
+      {
+        "id": 107,
+        "name": "Margarita Pizza",
+        "description": "Simple yet delicious pizza topped with tomato sauce, mozzarella, and basil.",
+        "price": 11.99,
+        "category": "Pizza",
+        "rating": 4,
+        "img":"https://th.bing.com/th/id/OIP.DaB-qPu9FJD4amxEZwEZpQHaFm?w=254&h=192&c=7&r=0&o=5&pid=1.7",
+        
+        "top_seller": false
+        ,
+        "in_stock": false
+      },
+      {
+        "id": 108,
+        "name": "Fish and Chips",
+        "description": "Crispy battered fish served with french fries and tartar sauce.",
+        "price": 13.99,
+        "category": "Seafood",
+        "rating": 4,
+        "img":"https://th.bing.com/th/id/OIP.DaB-qPu9FJD4amxEZwEZpQHaFm?w=254&h=192&c=7&r=0&o=5&pid=1.7",
+        "top_seller": true
+        ,
+        "in_stock": false
+      },
+      {
+        "id": 109,
+        "name": "BBQ Ribs",
+        "description": "Tender pork ribs smothered in BBQ sauce, served with coleslaw and fries.",
+        "price": 20.99,
+        "category": "BBQ",
+        "img":"https://th.bing.com/th/id/OIP.DaB-qPu9FJD4amxEZwEZpQHaFm?w=254&h=192&c=7&r=0&o=5&pid=1.7",
+        "rating": 3,
+        "top_seller": true
+        ,
+        "in_stock": false
+      },
+      {
+        "id": 110,
+        "name": "Vegetable Stir Fry",
+        "description": "Fresh vegetables stir-fried in a savory sauce, served over rice.",
+        "price": 12.99,
+        "category": "Vegetarian",
+        "img":"https://th.bing.com/th/id/OIP.DaB-qPu9FJD4amxEZwEZpQHaFm?w=254&h=192&c=7&r=0&o=5&pid=1.7",
+        "rating": 3,
+        "top_seller": false,
+        "in_stock": true
+      },
+      {
+        "id": 111,
+        "name": "Tiramisu",
+        "description": "Classic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+        "price": 7.99,
+        "category": "Dessert",
+        "img":"https://th.bing.com/th/id/OIP.DaB-qPu9FJD4amxEZwEZpQHaFm?w=254&h=192&c=7&r=0&o=5&pid=1.7",
+        "rating": 4,
+        "top_seller": true
+        ,
+        "in_stock": true
+      },
+      {
+        "id": 112,
+        "name": "Vegetarian Pizza",
+        "description": "Delicious pizza loaded with fresh vegetables and cheese.",
+        "price": 13.99,
+        "category": "Pizza",
+        "img" :"http//image.com",
+        "rating": 5,
+        "top_seller": false,
+        "in_stock": true
+      }
+    ],
+    "featured_Products":[
+
+      {
+        "id": 108,
+        "name": "Fish and Chips",
+        "description": "Crispy battered fish served with french fries and tartar sauce.",
+        "price": 13.99,
+        "category": "Seafood",
+        "img":"https://th.bing.com/th/id/OIP.DaB-qPu9FJD4amxEZwEZpQHaFm?w=254&h=192&c=7&r=0&o=5&pid=1.7",
+        "rating": 2,
+        "top_seller": true
+        ,
+        "in_stock": false
+      },
+      {
+        "id": 109,
+        "name": "BBQ Ribs",
+        "description": "Tender pork ribs smothered in BBQ sauce, served with coleslaw and fries.",
+        "price": 20.99,
+        "category": "BBQ",
+        "img":"https://th.bing.com/th/id/OIP.DaB-qPu9FJD4amxEZwEZpQHaFm?w=254&h=192&c=7&r=0&o=5&pid=1.7",
+        "rating": 4,
+        "top_seller": true
+        ,
+        "in_stock": true
+      },
+      {
+        "id": 110,
+        "name": "Vegetable Stir Fry",
+        "description": "Fresh vegetables stir-fried in a savory sauce, served over rice.",
+        "price": 12.99,
+        "category": "Vegetarian",
+        "img":"https://th.bing.com/th/id/OIP.DaB-qPu9FJD4amxEZwEZpQHaFm?w=254&h=192&c=7&r=0&o=5&pid=1.7",
+        "rating": 3,
+        "top_seller": false
+        ,
+        "in_stock": true
+      }
+
+
+
+
+
+    ]
+  }
+  

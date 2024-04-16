@@ -1,0 +1,14 @@
+.img-Container{
+
+
+}
+.main-productdetail{
+display: flex;
+justify-content: space-between;
+padding: 45px;
+
+}
+.des-Container{
+margin-left: 55px;
+
+}

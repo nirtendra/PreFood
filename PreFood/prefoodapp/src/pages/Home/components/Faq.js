@@ -46,24 +46,17 @@ export const Faq = () => {
 
   return (
     <div className="FaqContainer">
-      <h1>Question ?</h1>
-      <div className="FaqContainerItem">
-
-        
-        {faqs.map(({id , question, answer,index }) => (
-         
-          <Accordion defaultActiveKey="1" flush >
-            <Accordion.Item  Key={id} eventKey={index === 0 ? "true" : `${id}`}  >
-              <Accordion.Header>
-                {question}
-              </Accordion.Header>
-              <Accordion.Body>
-                {answer}
-              </Accordion.Body>
-            </Accordion.Item>
-          </Accordion>
-        ))}
-      </div>
+    <h1>Question ?</h1>
+    <div className="FaqContainerItem">
+      {faqs.map(({ id, question, answer }) => (
+        <Accordion defaultActiveKey="1" flush key={id}>
+          <Accordion.Item eventKey={id}>
+            <Accordion.Header>{question}</Accordion.Header>
+            <Accordion.Body>{answer}</Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+      ))}
     </div>
+  </div>
   );
 };
